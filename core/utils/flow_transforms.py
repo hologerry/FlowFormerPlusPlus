@@ -1,14 +1,15 @@
-from __future__ import division
-import torch
-import random
-import numpy as np
 import numbers
-import types
-import scipy.ndimage as ndimage
 import pdb
-import torchvision
-import PIL.Image as Image
+import random
+import types
+
 import cv2
+import numpy as np
+import PIL.Image as Image
+import scipy.ndimage as ndimage
+import torch
+import torchvision
+
 from torch.nn import functional as F
 
 

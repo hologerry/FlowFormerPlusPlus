@@ -16,7 +16,7 @@ _CN.critical_params = []
 _CN.transformer = 'percostformer3'
 
 ### change the path here
-_CN.model = "logs/PATH-TO-FINAL-FILE/final"
+_CN.model = "FlowFormer++/kitti.pth"
 
 _CN.percostformer3 = CN()
 _CN.percostformer3.pe = 'linear'
